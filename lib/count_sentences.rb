@@ -20,7 +20,7 @@ class String
   end
 
   def exclamation?
-    self.match(/.*[!]\z/)
+    self.match(/.*[!]\z/) ? true : false
   end
 
   def count_sentences
