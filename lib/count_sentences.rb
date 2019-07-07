@@ -25,10 +25,6 @@ class String
 
   def count_sentences
     array = self.scan(/\w+[.?!]/)
-    if array.length == 0
-      return 0
-    else
-      return array.length
-    end
+    return array.length
   end
 end
